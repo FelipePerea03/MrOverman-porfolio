@@ -3,28 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mr Overman - Felipe Herrera Perea</title>
+    <title>Felipe Herrera Perea - Portafolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Open+Sans:wght@400&family=Bangers&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav>
-            <div class="logo">MrOverman</div>
+            <div class="logo">FHP</div>
             <ul class="nav-links">
                 <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#sobre-mi">Sobre Mí</a></li>
                 <li><a href="#portafolio">Portafolio</a></li>
                 <li><a href="#blog">Blog</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
             <div class="theme-toggle">🌙</div>
+            <div class="menu-toggle">☰</div>
         </nav>
     </header>
-    <!-- Secciones como Hero, Sobre Mí, etc -->
+
+    <section id="inicio" class="hero">
+        <h1>Felipe Herrera Perea</h1>
+        <p>Desarrollador, Marketer & Rapero en la Era Digital</p>
+        <a href="#" class="cta-button">Descargar CV</a>
+    </section>
+
+    <section id="sobre-mi" class="about">
+        <h2>Sobre Mí</h2>
+        <p>Una breve descripción de tu trayectoria y pasiones...</p>
+    </section>
+
+    <section id="portafolio" class="portfolio">
+        <h2>Portafolio</h2>
+        <!-- Tarjetas de portafolio -->
+    </section>
+
+    <section id="blog" class="blog">
+        <h2>Blog</h2>
+        <!-- Entradas de blog -->
+    </section>
+
+    <section id="contacto" class="contact">
+        <h2>Contacto</h2>
+        <form>
+            <input type="text" placeholder="Nombre">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Mensaje"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
     <footer>
         <p>© 2024 Felipe Herrera Perea - Desarrollado por FHP</p>
     </footer>
-    <script src="../js/script.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
